@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink } from "react-router-dom";
 
-export const StyledLink = styled(NavLink)`
+export const GoBackLink = styled(NavLink)`
     margin-bottom: 10px;
     margin-left: 10px;
     padding: 5px;
@@ -12,9 +12,11 @@ export const StyledLink = styled(NavLink)`
         color: black;
     }
     border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+
     &:hover{
-        box-shadow: 0px 0px 5px black;
+        box-shadow: 0px 0px 5px grey;
+        color: white;
+        background-color: #d23272;
     }
 `
